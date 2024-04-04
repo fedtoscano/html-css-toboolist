@@ -85,6 +85,7 @@ body{
     display: inline-block;
     width: 5rem;
     height: 30px;
+    line-height: 30px;
     text-align: center;
     border: none;
     border-radius:20%;
@@ -99,6 +100,7 @@ body{
     font-size: 1.5em;
     font-weight: 600;
 }
+
 .editorial{
     background-color: rgb(68, 171, 235);
 }
