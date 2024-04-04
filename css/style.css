@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1rem 2rem;
+}
+
+#boolean-logo{
+    width: 4rem;
+    vertical-align: middle;
+}
+
+#title-text{
+    display: inline-block;
+    font-size: 3.5rem;
+    vertical-align: middle;
+
+}
