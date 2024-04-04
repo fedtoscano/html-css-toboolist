@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     padding: 1rem 2rem;
     background-color: white;
@@ -66,7 +67,6 @@ body{
 }
 
 .sub-list{
-    padding-left: 4rem;
     font-size: 0.8em;
     font-weight: 100;
     list-style-type: none;
