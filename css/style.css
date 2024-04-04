@@ -18,3 +18,33 @@ header{
     vertical-align: middle;
 
 }
+.container{
+    background-color: rgb(247, 249, 250);
+}
+
+.button-container{
+    width: 60%;
+    height: 80px;
+    margin: 2rem 15rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    background-color:white;
+}
+
+.button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    border: 1px solid rgb(213, 217, 222);
+    font-weight: 400;
+}
+
+.button-task{
+    color: white;
+    background-color: rgb(70, 173, 242);
+}
+
+.button-section{
+    color: rgb(213, 217, 222);
+    background-color: white;
+}
