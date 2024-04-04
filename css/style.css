@@ -26,7 +26,7 @@ body{
 .button-container{
     width: 60%;
     height: 80px;
-    margin: 2rem 15rem;
+    margin: 1rem 15rem;
     padding-left: 2rem;
     padding-top: 1.5rem;
     background-color:white;
@@ -51,21 +51,28 @@ body{
 }
 
 .to-do-container{
+    margin-top: 2em;
     background-color: white;
     width: 60%;
     height: 80%;
     margin: 2rem 15rem;
+    padding-left: 2rem;
 }
+
 #to-do-list{
     line-height: 2.5rem;
     list-style-position: inside;
     list-style-type: none;
 }
+
 .sub-list{
-    padding-left: 2rem;
+    padding-left: 4rem;
     font-size: 0.8em;
     font-weight: 100;
     list-style-type: none;
+}
+#to-do-list>li::before{
+    content: "\2B9F";
 }
 
 .badge{
@@ -103,4 +110,13 @@ body{
 }
 .website{
     background-color: rgb(217, 100, 162);
+}
+
+.checked::before{
+    content: "☑";
+}
+
+.unchecked::before{
+    content: "☐";
+
 }
