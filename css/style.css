@@ -5,6 +5,7 @@
 }
 header{
     padding: 1rem 2rem;
+    background-color: white;
 }
 
 #boolean-logo{
@@ -18,7 +19,7 @@ header{
     vertical-align: middle;
 
 }
-.container{
+body{
     background-color: rgb(247, 249, 250);
 }
 
@@ -47,4 +48,59 @@ header{
 .button-section{
     color: rgb(213, 217, 222);
     background-color: white;
+}
+
+.to-do-container{
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    margin: 2rem 15rem;
+}
+#to-do-list{
+    line-height: 2.5rem;
+    list-style-position: inside;
+    list-style-type: none;
+}
+.sub-list{
+    padding-left: 2rem;
+    font-size: 0.8em;
+    font-weight: 100;
+    list-style-type: none;
+}
+
+.badge{
+    display: inline-block;
+    width: 5rem;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius:20%;
+    vertical-align: center;
+    margin-left: .5em;
+    color: white;
+    font-size: .8em;
+    font-weight: 550;
+}
+
+.main-list{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.editorial{
+    background-color: rgb(68, 171, 235);
+}
+.q1Goals{
+    background-color: rgb(155, 113, 227);
+}
+.recruiting{
+    background-color: rgb(99, 191, 168);
+}
+.mobile{
+    background-color:rgb(242, 159, 51);
+}
+.sales{
+    background-color: rgb(177, 201, 38);
+}
+.website{
+    background-color: rgb(217, 100, 162);
 }
