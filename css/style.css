@@ -71,6 +71,7 @@ body{
     font-weight: 100;
     list-style-type: none;
 }
+
 #to-do-list>li::before{
     content: "\2B9F";
 }
@@ -114,9 +115,10 @@ body{
 
 .checked::before{
     content: "☑";
+    margin-right: 1rem;
 }
 
 .unchecked::before{
     content: "☐";
-
+    margin-right: 1rem;
 }
